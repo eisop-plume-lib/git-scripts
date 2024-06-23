@@ -2,8 +2,8 @@
 
 These scripts automate various Git tasks.
 
-Also see https://github.com/plume-lib/manage-git-branches
-and https://github.com/plume-lib/plume-scripts.
+Also see https://github.com/eisop-plume-lib/manage-git-branches
+and https://github.com/eisop-plume-lib/plume-scripts.
 
 ## Installation
 
@@ -14,7 +14,7 @@ Then, the scripts are available at `/tmp/$USER/git-scripts`.
 if [ -d /tmp/$USER/git-scripts ] ; then
   git -C /tmp/$USER/git-scripts pull -q > /dev/null 2>&1
 else
-  mkdir -p /tmp/$USER && git -C /tmp/$USER clone --depth 1 -q https://github.com/plume-lib/git-scripts.git
+  mkdir -p /tmp/$USER && git -C /tmp/$USER clone --depth 1 -q https://github.com/eisop-plume-lib/git-scripts.git
 fi
 ```
 
@@ -58,7 +58,7 @@ Here is how to accomplish that:
   if [ -d "/tmp/$USER/git-scripts" ] ; then
     git -C /tmp/$USER/git-scripts pull -q > /dev/null 2>&1
   else
-    mkdir -p /tmp/$USER && git -C /tmp/$USER clone --depth 1 -q https://github.com/plume-lib/git-scripts.git
+    mkdir -p /tmp/$USER && git -C /tmp/$USER clone --depth 1 -q https://github.com/eisop-plume-lib/git-scripts.git
   fi
   /tmp/$USER/git-scripts/git-clone-related codespecs fjalar
 ```
