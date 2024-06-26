@@ -107,7 +107,8 @@ else
     CI_INFO="$SCRIPTDIR/.plume-scripts/ci-info"
   fi
   if [ ! -f "$CI_INFO" ] ; then
-    (cd "$SCRIPTDIR" && git clone --depth 1 https://github.com/eisop-plume-lib/plume-scripts .plume-scripts)
+    CI_INFO="$SCRIPTDIR/../.plume-scripts/ci-info"
+    (cd "$SCRIPTDIR"/.. && git clone --depth 1 https://github.com/eisop-plume-lib/plume-scripts .plume-scripts)
   fi
   if [ ! -f "$CI_INFO" ] ; then
     echo "CI_INFO does not exist: $CI_INFO"
