@@ -12,19 +12,26 @@ s/^ChristosToxiadis$/Chris Toxiadis/
 s/^Colin Gordon$/Colin S. Gordon/
 s/^Colin Stebbins Gordon$/Colin S. Gordon/
 s/^Haaris710$/Haaris Ahmed/
+s/^Ivan-Kocherhin$/Ivan Kocherhin/
 s/^J Luo$/Jeff Luo/
+s/^Jck$/Shuqi Lin/
 s/^Jianchu$/Jianchu Li/
+s/^Johnny$/JohnnyJayJay/
 s/^JonathanGBurke$/Jonathan Burke/
 s/^Kenn Knowles/Kenneth Knowles/
 s/^LS@WATER$/Lian Sun/
 s/^L\. Sun$/Lian Sun/
-s/^Lázaro Clapp$/Lazaro Clapp/
 s/^Leo$/Leo Liu/
+s/^Lázaro Clapp$/Lazaro Clapp/
 s/^Maxi17$/Maximilian Gama/
+s/^MichalStehlikCz$/Michal Stehlik/
 s/^Michèle$/Stefan Heule/
 s/^MrigankArora$/Mrigank Arora/
+s/^NITIN DAS$/Nitin Kumar Das/
+s/^NITIN KUMAR DAS$/Nitin Kumar Das/
 s/^Nargeshdb$/Narges Shadab/
 s/^Oleg$/Oleg Shchelykalnov/
+s/^PratikBhusal$/Pratik Bhusal/
 s/^Rashmi$/Rashmi Mudduluru/
 s/^Sadaf$/Sadaf Tajik/
 s/^SnowOnion$/Sonion Lee/
@@ -66,11 +73,10 @@ s/^gregs$/Greg Sullivan/
 s/^gustavo$/Gustavo Santos/
 s/^hunkim$/Sung Kim/
 s/^iuliuv$/Iuliu Vasilescu/
-s/^Ivan-Kocherhin$/Ivan Kocherhin/
+s/^iywang2016$/Ivory Wang/
 s/^jaimeq$/Jaime Quinonez/
 s/^jake$/Jake Cockrell/
 s/^jburke$/Jonathan Burke/
-s/^Jck$/Shuqi Lin/
 s/^jhp$/Jeff Perkins/
 s/^jonathangburke$/Jonathan Burke/
 s/^joshkata$/Josh Kataoka/
@@ -99,15 +105,13 @@ s/^mjollnir$/Matt Mullen/
 s/^naveensrinivasan$/Naveen Srinivasan/
 s/^nimakarimipour$/Nima Karimipour/
 s/^nitin23329$/Nitin Kumar Das/
-s/^NITIN DAS$/Nitin Kumar Das/
-s/^NITIN KUMAR DAS$/Nitin Kumar Das/
+s/^nod694$/Hamed Taghani/
 s/^notnoop$/Mahmood Ali/
 s/^olegshtch$/Oleg Shchelykalnov/
 s/^patrickmeiring$/Patrick Meiring/
 s/^pgbovine$/Philip Guo/
 s/^pkalauskas$/Peter Kalauskas/
 s/^plvines$/Paul Vines/
-s/^PratikBhusal$/Pratik Bhusal/
 s/^priti1999$/Priti Chattopadhyay/
 s/^racezhang$/Sai Zhang/
 s/^racezhang@gmail.com$/Sai Zhang/
@@ -124,11 +128,9 @@ s/^smillst$/Suzanne Millstein/
 s/^stefan$/Stefan Heule/
 s/^stefanheule$/Stefan Heule/
 s/^stehlik$/Michal Stehlik/
-s/^MichalStehlikCz$/Michal Stehlik/
 s/^sullis$/Sean C. Sullivan/
 s/^szhang$/Sai Zhang/
 s/^tamier$/Mier Ta/
-s/^nod694$/Hamed Taghani/
 s/^ten3$/Tatyana Nikolova/
 s/^todd.schiller$/Todd Schiller/
 s/^tohn$/Toh Ne Win/
@@ -136,6 +138,7 @@ s/^tschiller$/Todd Schiller/
 s/^tws$/Todd Schiller/
 s/^txiang61$/Jenny Xiang/
 s/^utsavoza$/Utsav Oza/
+s/^vananiev$/Vitalii Ananiev/
 s/^vkm$/Vikash Mansinghka/
 s/^wdietl$/Werner Dietl/
 s/^wmdietl$/Werner Dietl/
@@ -153,6 +156,7 @@ s/^zhangjiangqige$/Jiangqi Zhang/
 /^daikonuser$/d
 /^convert-repo$/d
 /^student$/d
+/^hello$/d
 
 /^doc\/index.html$/d
 
