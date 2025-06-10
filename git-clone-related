@@ -153,7 +153,7 @@ else
   timeout 300 git clone -b "${REPO_BRANCH}" "$@" "${REPO_URL}" "${DESTINATION}" \
     || { sleep 60 \
          && { timeout 300 git clone -b "${REPO_BRANCH}" "$@" "${REPO_URL}" "${DESTINATION}" \
-              || { echo "git-clone-related: failed: git clone --depth 300 -b ${REPO_BRANCH}" "$@" "${REPO_URL} ${DESTINATION}";
+              || { echo "git-clone-related: failed: git clone -b ${REPO_BRANCH}" "$@" "${REPO_URL} ${DESTINATION}";
                    exit 2; } } }
 fi
 echo "git-clone-related: ${DESTINATION} is at $(cd "${DESTINATION}" && git rev-parse HEAD)"
