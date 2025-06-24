@@ -113,7 +113,7 @@ else
   if [ ! -f "$CI_INFO" ]; then
     CI_INFO="$SCRIPT_DIR/.plume-scripts/ci-info"
   fi
-  if [ ! -f "$CI_INFO" ] ; then
+  if [ ! -f "$CI_INFO" ]; then
     CI_INFO="$SCRIPT_DIR/../.plume-scripts/ci-info"
     (cd "$SCRIPT_DIR"/.. && git clone --depth 1 https://github.com/eisop-plume-lib/plume-scripts .plume-scripts)
   fi
