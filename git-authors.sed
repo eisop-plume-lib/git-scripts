@@ -4,6 +4,7 @@
 # TODO: It might be better to match against full email address rather than
 # just the id before the "@".
 
+s/^Ankit$/Ankit Yadav/
 s/^Bohdan$/Bohdan Sharipov/
 s/^Carlos$/Carlos Pacheco/
 s/^Charles Chen Charleszhuochen@gmail.com$/Charles Chen/
@@ -11,6 +12,7 @@ s/^CharlesZ-Chen$/Charles Chen/
 s/^ChristosToxiadis$/Chris Toxiadis/
 s/^Colin Gordon$/Colin S. Gordon/
 s/^Colin Stebbins Gordon$/Colin S. Gordon/
+s/^Damika-Anupama$/Damika Anupama/
 s/^Haaris710$/Haaris Ahmed/
 s/^Ivan-Kocherhin$/Ivan Kocherhin/
 s/^J Luo$/Jeff Luo/
@@ -36,8 +38,10 @@ s/^PratikBhusal$/Pratik Bhusal/
 s/^Rashmi$/Rashmi Mudduluru/
 s/^Sadaf$/Sadaf Tajik/
 s/^SnowOnion$/Sonion Lee/
+s/^Suvrat1629$/Suvrat Acharya/
 s/^Vlastimil$/Vlastimil Dort/
 s/^W. Dietl$/Werner Dietl/
+s/^YukiYang31$/Yuki Yang/
 s/^abslamp$/Lian Sun/
 s/^aditya3434$/Aditya Singh/
 s/^adonovan$/Alan Donovan/
@@ -99,6 +103,7 @@ s/^marinov$/Darko Marinov/
 s/^matthew.s.tschantz$/Matthew Tschantz/
 s/^mcarthur$/David McArthur/
 s/^mernst$/Michael Ernst/
+s/^mernstcheckerframework$/Michael Ernst/
 s/^mhao$/Melissa Hao/
 s/^mharder$/Michael Harder/
 s/^michael.ernst$/Michael Ernst/
@@ -123,6 +128,8 @@ s/^rjust$/René Just/
 s/^salcianu$/Alexandru Salcianu/
 s/^scruffy$/Benjamin Morse/
 s/^shisheng-1$/Junhao Hu/
+s/^shubham kapoor$/Shubham Kapoor/
+s/^shubhamk0205$/Shubham Kapoor/
 s/^sjl$/Sandra Loosemore/
 s/^smcc$/Stephen McCamant/
 s/^smeghani$/Samir Meghani/
@@ -142,6 +149,7 @@ s/^txiang61$/Jenny Xiang/
 s/^utsavoza$/Utsav Oza/
 s/^vaidikcode$/Vaidik Bhardwaj/
 s/^vananiev$/Vitalii Ananiev/
+s/^vivek-0509$/Vivek Singh Solanki/
 s/^vkm$/Vikash Mansinghka/
 s/^wdietl$/Werner Dietl/
 s/^wmdietl$/Werner Dietl/
@@ -152,7 +160,9 @@ s/^yuriy.brun$/Yuriy Brun/
 s/^zcai$/Zhiping Cai/
 s/^zhangjiangqige$/Jiangqi Zhang/
 
-# Add your GitHub username in alphabetical order, not here at the end.
+# Add your GitHub username in alphabetical order above, not here at the end.
+
+# Test users.
 
 /^daikonbuildtest$/d
 /^daikongroupmember$/d
@@ -163,7 +173,12 @@ s/^zhangjiangqige$/Jiangqi Zhang/
 
 /^doc\/index.html$/d
 
+# Bots
+
 /^dependabot-preview\[bot\]$/d
 /^dependabot\[bot\]$/d
+/^Copilot$/d
+/^coderabbitai\[bot\]$/d
+/^Claude$/d
 
 /^unknown$/d

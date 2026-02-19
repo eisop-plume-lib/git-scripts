@@ -2,15 +2,15 @@
 
 These scripts automate various Git tasks.
 
-Also see https://github.com/eisop-plume-lib/manage-git-branches
-and https://github.com/eisop-plume-lib/plume-scripts.
+Also see <https://github.com/eisop-plume-lib/manage-git-branches>
+and <https://github.com/eisop-plume-lib/plume-scripts>.
 
 ## Installation
 
 To install, run the following (or put it at the top of a script).
 Then, the scripts are available at `/tmp/$USER/git-scripts`.
 
-```
+```sh
 if [ -d /tmp/$USER/git-scripts ] ; then
   git -C /tmp/$USER/git-scripts pull -q > /dev/null 2>&1
 else
@@ -23,8 +23,7 @@ bleeding-edge HEAD, you can run `git checkout _SHA_` after the `git clone`
 command.
 
 Most of the scripts use `sh` or `bash`,
-but some of the scripts use `perl` or `python`.
-
+but some of the scripts use `python`.
 
 ## Git version control scripts
 
@@ -37,6 +36,11 @@ A script for use as a git mergetool; runs Emacs ediff as the mergetool.
 
 Lists all the authors of commits in a git repository.
 [Documentation](git-authors) at top of file.
+
+### git-clone-or-pull
+
+Either clones a repository, or pulls it if it is already cloned.
+[Documentation](git-clone-or-pull) at top of file.
 
 ### git-clone-related
 
@@ -54,13 +58,13 @@ you would like to use fork F of *MY-OTHER-REPO* if it exists,
 and you would like to use branch BR if it exists.
 Here is how to accomplish that:
 
-```
-  if [ -d "/tmp/$USER/git-scripts" ] ; then
-    git -C /tmp/$USER/git-scripts pull -q > /dev/null 2>&1
-  else
-    mkdir -p /tmp/$USER && git -C /tmp/$USER clone --depth 1 -q https://github.com/eisop-plume-lib/git-scripts.git
-  fi
-  /tmp/$USER/git-scripts/git-clone-related codespecs fjalar
+```sh
+if [ -d "/tmp/$USER/git-scripts" ] ; then
+  git -C /tmp/$USER/git-scripts pull -q > /dev/null 2>&1
+else
+  mkdir -p /tmp/$USER && git -C /tmp/$USER clone --depth 1 -q https://github.com/eisop-plume-lib/git-scripts.git
+fi
+/tmp/$USER/git-scripts/git-clone-related codespecs fjalar
 ```
 
 ### git-find-fork
@@ -92,4 +96,3 @@ blank lines and whitespace.
 Edits files in place to resolve git conflicts that arise from Java `import`
 statements.
 [Documentation](resolve-import-conflicts) at top of file.
-
