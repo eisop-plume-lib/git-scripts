@@ -175,10 +175,12 @@ s/^zhangjiangqige$/Jiangqi Zhang/
 
 # Bots
 
+/^Claude$/d
+/^coderabbitai\[bot\]$/d
+/^Copilot$/d
+/^copilot-swe-agent\[bot\]$/d
 /^dependabot-preview\[bot\]$/d
 /^dependabot\[bot\]$/d
-/^Copilot$/d
-/^coderabbitai\[bot\]$/d
-/^Claude$/d
+/^renovate\[bot\]$/d
 
 /^unknown$/d
