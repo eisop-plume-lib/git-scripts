@@ -178,6 +178,7 @@ s/^zhangjiangqige$/Jiangqi Zhang/
 /^Claude$/d
 /^coderabbitai\[bot\]$/d
 /^Copilot$/d
+/^Copilot Autofix powered by AI/d
 /^copilot-swe-agent\[bot\]$/d
 /^dependabot-preview\[bot\]$/d
 /^dependabot\[bot\]$/d
