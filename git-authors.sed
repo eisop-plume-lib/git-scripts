@@ -175,7 +175,7 @@ s/^zhangjiangqige$/Jiangqi Zhang/
 
 # Bots
 
-/^Claude$/d
+/^Claude/d
 /^coderabbitai\[bot\]$/d
 /^Copilot$/d
 /^Copilot Autofix powered by AI/d
