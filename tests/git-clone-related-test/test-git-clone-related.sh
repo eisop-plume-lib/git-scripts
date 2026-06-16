@@ -39,7 +39,16 @@ unset SYSTEM_PULLREQUEST_TARGETBRANCH
 unset BUILD_SOURCEBRANCH
 unset TRAVIS
 unset CIRCLE_COMPARE_URL
+unset GITHUB_ACTIONS
+unset GITHUB_ACTOR
+unset GITHUB_BASE_REF
+unset GITHUB_EVENT_NAME
+unset GITHUB_EVENT_PATH
 unset GITHUB_HEAD_REF
+unset GITHUB_REF
+unset GITHUB_REF_NAME
+unset GITHUB_REPOSITORY
+unset GITHUB_SHA
 
 echo "$0: About to run: (cd $startdir && ${GIT_SCRIPTS}/git-clone-related $DEBUG $ARGS $resultdir)"
 # shellcheck disable=SC2086  # $DEBUG and $ARGS should not be quoted
