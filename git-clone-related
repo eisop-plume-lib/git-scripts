@@ -164,11 +164,6 @@ else
   if [ -n "$DEBUG" ]; then
     echo "${SCRIPT_NAME}: Done: eval ci-info output in ${PWD}"
   fi
-  if [ -z "${CI_BRANCH_NAME:-}" ] && [ -n "${CI_BRANCH:-}" ] && [ "${CI_BRANCH}" != "null" ]; then
-    CI_BRANCH_NAME="${CI_BRANCH}"
-  elif [ -z "${CI_BRANCH_NAME:-}" ]; then
-    CI_BRANCH_NAME=$(git rev-parse --abbrev-ref HEAD)
-  fi
   UPSTREAM_REPO_URL="https://github.com/${UPSTREAM_ORG}/${REPO_NAME}.git"
 
   if [ -n "$DEBUG" ]; then
