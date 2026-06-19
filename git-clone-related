@@ -124,6 +124,16 @@ else
     exit 1
   fi
 
+  if [ -n "${GITHUB_BASE_REF:-}" ] && [ "${GITHUB_BASE_REF}" != "null" ] && ! git rev-parse --verify --quiet "remotes/origin/${GITHUB_BASE_REF}" > /dev/null; then
+    if [ -n "$DEBUG" ]; then
+      echo "${SCRIPT_NAME}: About to fetch missing GitHub Actions base ref remotes/origin/${GITHUB_BASE_REF}"
+    fi
+    git fetch -q --depth=1 origin "${GITHUB_BASE_REF}:refs/remotes/origin/${GITHUB_BASE_REF}" || true
+    if [ -n "$DEBUG" ]; then
+      echo "${SCRIPT_NAME}: Done fetching missing GitHub Actions base ref remotes/origin/${GITHUB_BASE_REF}"
+    fi
+  fi
+
   if [ -n "$DEBUG" ]; then
     echo "${SCRIPT_NAME}: About to run: ci-info --debug"
     "${CI_INFO}" --debug "${UPSTREAM_ORG}"
